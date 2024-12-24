@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEX ÖRNEĞİ</title>
+    <style>
+        .galeri{
+            background-color: black;
+            width: 1230px;
+            margin: 50px auto;
+            display: flex; /*kutunun içine sığacak şekilde nesneleri kendine göre ayarlar  */
+            flex-wrap: wrap; /*kutuya sığmayan nesneleri alt satıra geçirir*/
+            gap: 10px; /*nesneler arasında boşluk oluşturur*/
+        }
+    </style>
+</head>
+<body>
+    <div class="galeri">  <!-- (.galeri) diyip enter'a bastığımızda divli bir class oluşturuyor.-->
+        <img src="https://picsum.photos/300/200" alt="picsum resmi">
+        <img src="https://picsum.photos/300/200" alt="picsum resmi">
+        <img src="https://picsum.photos/300/200" alt="picsum resmi">
+        <img src="https://picsum.photos/300/200" alt="picsum resmi">
+    </div>
+</body>
+</html>
