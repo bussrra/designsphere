@@ -1,0 +1,110 @@
+
+
+.alt-cizgi-2{
+    border-bottom: 2px solid rgb(204, 204, 204);
+}
+
+header{
+    background-color: rgb(37, 38, 39);
+    border-bottom: 3px solid rgb(206, 24, 30);
+}
+#tap-menu a,
+#lang-menu a{
+display: block;
+padding: 0.5rem;
+color: rgb(204, 204, 204);
+text-decoration: none;
+font-family: sans-serif;
+font-size: .75rem;
+}
+#main-menu a{
+    display: block;
+    padding: 0.5rem 1rem;
+    color: rgb(204, 204, 204);
+    text-decoration: none;
+    font-family: sans-serif;
+}
+#main-menu a:hover{
+    background-color: rgb(206, 24, 30);
+}
+body{
+    background-color: rgb(202, 204, 209);
+}
+.card{
+    background-color: rgb(37, 38, 39);
+    padding: 1.5rem;
+    margin: 1rem .75rem 0 .75em;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+.card-poster{
+    width: 100%;
+   align-items: stretch;
+}
+.card-titel{
+    font-size: 1.4rem;
+    text-align: center;
+   margin-bottom: 0.5rem;
+}
+.buy-ticket{
+    background-color: rgb(206, 24, 30);
+    color: #ffffff;
+    display: block;
+    width: 100%;
+    padding: 1rem 0;
+    margin: 1rem;
+    font-size: 1rem;
+    border: none;
+}
+
+.nmargin-1{
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+}
+footer{
+    background-color: rgb(37, 38, 39);
+    border-top: 3px solid rgb(238, 31, 38);
+    margin-top: 1rem;
+    font-family: sans-serif;
+    font-size: 0.75rem;
+    color: #cccccc;
+}
+.soz{
+    border: 1rem solid #ffffff;
+    margin: 1rem 0;
+    background-color: rgb(238, 31, 38);
+    padding: 1rem;
+    text-align: center;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+.soz q{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.soz p{
+    text-align: end;
+    font-weight: 600;
+}
+#start-menu a{
+display: block;
+padding: 0.5rem;
+color: rgb(204, 204, 204);
+text-decoration: none;
+font-family: sans-serif;
+font-size: .75rem;
+}
+#social-menu a{
+display: block;
+padding: 0.75rem;
+color: rgb(204, 204, 204);
+text-decoration: none;
+font-family: sans-serif;
+font-size: 1.2rem;
+}
+.footer-aciklama{
+    color: #cccccc;
+}
+.footer-aciklama a{
+    color: #ffffff;
+}
