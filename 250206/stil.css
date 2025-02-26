@@ -1,0 +1,21 @@
+body{
+    background-image: url(res/bg.jpg);
+    background-size: cover;
+}
+.menu .nav-link{
+    color: rgba(0, 0, 0, 0.705);
+    font-weight: bold;
+    
+}
+.menu a:hover{
+    background-color: rgb(255, 125, 190);
+    color: rgb(250, 247, 247);
+    transition: .5s;
+   
+}
+.card-title{
+    background-color: rgb(230, 86, 134);
+    color: beige;
+    width: fit-content;
+    
+}
