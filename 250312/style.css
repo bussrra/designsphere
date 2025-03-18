@@ -92,13 +92,15 @@ header{
     height: 105px;
     width: 200px;
 }
-.buton{
+.devam{
     background-color: var(--acik-mavi);
     color: white;
-    font-weight: bold;
-    font-size: 18px;
+    width: 150px;
+    height: 50px;
     padding: 10px;
-    width: 100px;
-    max-height: fit-content;
-    
+    font-weight: bold;
+    font-size: 20px;
+}
+.alt-yazi{
+    color: gray;
 }
