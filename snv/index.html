@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sayfa Sınav</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  </head>
+  <body>
+    
+    <header>
+        <div class="container">
+            <div class="row ">
+            <div class="col-12">
+
+                <nav class="navbar navbar-expand-lg  position-fixed start-0 end-0 top-0  m-4 z-2 rounded-2 bg-blizzard  ">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="index.html">
+                            <img height="50" src="res/tilki.webp" alt="logo">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#ana-menu" aria-controls="navbarSupportedContent" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="ana-menu">
+                            <!--üst sol menü-->
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <!--Warcraft-->
+                                <li class="nav-item dropdown">
+                                    <a id="canva" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Warcraft
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">World of Warcraft</a></li>
+                                        <li><a class="dropdown-item" href="#">World of Warcraft: The War Within</a></li>
+                                        <li><a class="dropdown-item" href="#">Warcraft I: Remastered</a></li>
+                                        <li><a class="dropdown-item" href="#">Warcraft II: Remastered</a></li>
+                                    </ul>
+                                </li>
+                                <!--Diablo-->
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Diablo
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Diablo IV</a></li>
+                                        <li><a class="dropdown-item" href="#">Diablo Immortal</a></li>
+                                    </ul>
+                                </li>
+                                <!--Overwatch-->
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Overwatch
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Overwatch 2</a></li>
+                                    </ul>
+                                </li>
+                                <!--StarCraft-->
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        StarCraft
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">StarCraft 2</a></li>
+                                        <li><a class="dropdown-item" href="#">StarCraft: Remastered</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+
+                            <!--üst sağ menü-->
+                            <ul class="nav justify-content-end">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Hakkımızda
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Blizzard Hakkında</a></li>
+                                        <li><a class="dropdown-item" href="#">Haberler</a></li>
+                                        <li><a class="dropdown-item" href="#">BlizzCon</a></li>
+                                        <li><a class="dropdown-item" href="#">Kariyer</a></li>
+                                        <li><a class="dropdown-item" href="#">Ürünler</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Mağaza</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"> Hesap</a>
+                                </li>
+
+                            </ul>
+                            <!--Battle.net'i İndir-->
+                            <button type="button" class="btn btn-dark"> Battle.net'i İndir</button>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        </div>
+        
+
+
+    </header>
+    <main>
+        <!-- Slider Yapısı -->
+        <div class="container">
+            <div class="row mt-3">
+                <div class="col-12 p-0">
+                    <div id="slider" class="carousel slide z-0 ">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#slider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#slider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#slider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active" data-bs-interval="3500">
+                            <img src="res/WAR_SXSW_Thor-Announce_Blizzardcom_Desktop_1600x720_JL01a.webp" class="d-block w-100" alt="sliderres1">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>First slide label</h5>
+                              <p>Some representative placeholder content for the first slide.</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item" data-bs-interval="3500">
+                            <img src="res/WAR_SXSW_Thor-Announce_Blizzardcom_Desktop_1600x720_JL01a.webp" class="d-block w-100" alt="sliderres2">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Second slide label</h5>
+                              <p>Some representative placeholder content for the second slide.</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item" data-bs-interval="3500">
+                            <img src="res/WAR_SXSW_Thor-Announce_Blizzardcom_Desktop_1600x720_JL01a.webp" class="d-block w-100" alt="sliderres3">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Third slide label</h5>
+                              <p>Some representative placeholder content for the third slide.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#slider" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#slider" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Kart Yapısı -->
+        <div class="container ">
+            <div class="row">
+                
+                <!-- kart1 -->
+               
+                    <div class="col-3">
+                        <div class="card text-center">
+                            <div class="card-body">
+                              <img src="res/tilki.webp" class="img-fluid w-100"  alt="Didi">
+                              <h5  id="kart" class="bg-danger card-title position-absolute top-50 start-50 translate-middle">250 ml Misket Limon</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- kart1 -->
+               
+                    <div class="col-3">
+                        <div class="card">
+                            <div class="card-body">
+                              <img src="res/tilki.webp" class="img-fluid w-100"  alt="Didi">
+                              <h5  id="kart" class="bg-danger card-title position-absolute top-50 start-50 translate-middle">250 ml Misket Limon</h5>
+                            </div>
+                        </div>
+                    </div>    
+
+                    <!-- kart1 -->
+               
+                    <div class="col-3">
+                        <div class="card text-center">
+                            <div class="card-body">
+                              <img src="res/tilki.webp" class="img-fluid w-100"  alt="Didi">
+                              <h5  id="kart" class="bg-danger card-title position-absolute top-50 start-50 translate-middle">250 ml Misket Limon</h5>
+                            </div>
+                        </div>
+                    </div>    
+
+                    <!-- kart1 -->
+               
+                    <div class="col-3">
+                        <div class="card text-center">
+                            <div class="card-body">
+                              <img src="res/tilki.webp" class="img-fluid w-100"  alt="Didi">
+                              <h5  id="kart" class="bg-danger card-title position-absolute top-50 start-50 translate-middle">250 ml Misket Limon</h5>
+                            </div>
+                        </div>
+                    </div>  
+                    
+                    <div class="col-3">
+                        <div class="card text-center">
+                            <div class="card-body">
+                              <img src="res/tilki.webp" class="img-fluid w-100"  alt="Didi">
+                              <h5  id="kart" class="bg-danger card-title position-absolute top-50 start-50 translate-middle">250 ml Misket Limon</h5>
+                            </div>
+                        </div>
+                    </div>  
+
+                    <div class="col-3">
+                        <div class="card text-center">
+                            <div class="card-body">
+                              <img src="res/tilki.webp" class="img-fluid w-100"  alt="Didi">
+                              <h5  id="kart" class="bg-danger card-title position-absolute top-50 start-50 translate-middle">250 ml Misket Limon</h5>
+                            </div>
+                        </div>
+                    </div>  
+
+                    <div class="col-3">
+                        <div class="card text-center">
+                            <div class="card-body">
+                              <img src="res/tilki.webp" class="img-fluid w-100"  alt="Didi">
+                              <h5  id="kart" class="bg-danger card-title position-absolute top-50 start-50 translate-middle">250 ml Misket Limon</h5>
+                            </div>
+                        </div>
+                    </div>  
+                
+            </div>
+        </div>
+
+
+        <!-- Bağlantılar Kurumlar Eposta -->
+        <div class="container">
+            
+                <div class="row py-3 bg-white">
+
+                <!-- Bağlantılar-->
+                <div class="col-4 ">
+                    <div id="baglantilar" class="list-group">
+                        <a href="#" id="liste-baslik" class="list-group-item list-group-item-action "><i class="bi bi-link"></i> BAĞLANTILAR</a>
+                        <a href="#" class="list-group-item list-group-item-action "><i class="bi bi-arrow-right-circle"></i> Okuldan Randevu Al</a>
+                        <a href="#" class="list-group-item list-group-item-action"><i class="bi bi-arrow-right-circle"></i> e-Okul Yönetim Bilgi Sistemleri Giriş Ekranı</a>
+                        <a href="#" class="list-group-item list-group-item-action"><i class="bi bi-arrow-right-circle"></i> MEB Bilişim Sistemleri Giriş Ekranı</a>
+                        <a href="#" class="list-group-item list-group-item-action"><i class="bi bi-arrow-right-circle"></i> e-Okul Veli Bilgilendirme Sistemi</a>
+                        <a href="#" class="list-group-item list-group-item-action"><i class="bi bi-arrow-right-circle"></i> Hayat Boyu Öğrenme</a>
+                        <a href="#" class="list-group-item list-group-item-action"><i class="bi bi-arrow-right-circle"></i> 444 0 MEB</a>
+                    </div>
+                </div>
+                
+
+                <!-- küçük 4'lü fotiler -->
+                <div class="col-4 position-relative">
+                  <h2 class="yazi-renk">Kurumumuz</h2>
+                  <div class="row g-2 mb-5">
+                    <div class="col-6"><img class="img-thumbnail img-fluid kurum" src="res/kurumumuz1.jpg" alt="1"></div>
+                    <div class="col-6"><img class="img-thumbnail img-fluid kurum" src="res/kurumumuz2.jpg" alt="2"></div>
+                    <div class="col-6"><img class="img-thumbnail img-fluid kurum" src="res/kurumumuz3.jpg" alt="3"></div>
+                    <div class="col-6"><img class="img-thumbnail img-fluid kurum" src="res/kurumumuz4.jpg" alt="4"></div>
+                  </div>
+                  
+                  <div class="btn rounded-end-pill position-absolute bottom-0 start-0 mt-3">
+                    <span>Devam <i class="bi bi-arrow-right"></i></span>
+                  </div>
+                </div>
+
+                <div class="col-4 position-relative">
+                    <h2 class="yazi-renk">E-Posta</h2>
+                    <form>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Email Adres</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <div id="emailHelp" class="form-text">E-postanızı kimseyle paylaşmayacağız.</div>
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputPassword1" class="form-label">Şifre</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Beni Unutma</label>
+                        </div>
+                        <div class="btn rounded-end-pill position-absolute  bottom-0 start-0">
+                            <span>Devam <i class="bi bi-arrow-right"></i></span>
+                          </div>
+                      </form>
+                </div>
+                
+
+      
+              </div>
+              
+            
+        </div>
+
+
+        
+        
+    </main>
+
+
+
+   
+
+    <footer>
+        <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center">
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
