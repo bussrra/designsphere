@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>KİRALIK DAİRELER</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="row" id="header-ust">
+          <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">
+                <img
+                  src="res/house-door (2).svg"
+                  height="35"
+                  alt="logo"
+                />
+              </a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div
+                class="collapse navbar-collapse"
+                id="navbarSupportedContent"
+              >
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Ana Sayfa</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="kiralikdaire.html">Kiralık Daireler</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="iletisim.html">İletişim</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="Arama Yapınız"
+                    aria-label="Search"
+                  />
+                </form>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <table
+          id="kiralik-daireler"
+          class="table table-bordered table-striped mt-4"
+        >
+          <thead>
+            <tr>
+              <th>No</th>
+              <th>Adres</th>
+              <th>Oda Sayısı</th>
+              <th>Fiyat</th>
+              <th>Metrekare</th>
+              <th>İlan Tarihi</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>İstanbul, Kadıköy</td>
+              <td>2+1</td>
+              <td>12.000₺</td>
+              <td>85 m²</td>
+              <td>28.05.2025</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>İzmir, Bornova</td>
+              <td>3+1</td>
+              <td>10.500₺</td>
+              <td>100 m²</td>
+              <td>27.05.2025</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Ankara, Çankaya</td>
+              <td>1+1</td>
+              <td>8.000₺</td>
+              <td>60 m²</td>
+              <td>26.05.2025</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Bursa, Nilüfer</td>
+              <td>2+1</td>
+              <td>9.500₺</td>
+              <td>75 m²</td>
+              <td>25.05.2025</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>Antalya, Konyaaltı</td>
+              <td>1+1</td>
+              <td>11.000₺</td>
+              <td>70 m²</td>
+              <td>24.05.2025</td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>Samsun, Atakum</td>
+              <td>3+1</td>
+              <td>8.800₺</td>
+              <td>110 m²</td>
+              <td>23.05.2025</td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>Eskişehir, Tepebaşı</td>
+              <td>2+1</td>
+              <td>7.500₺</td>
+              <td>80 m²</td>
+              <td>22.05.2025</td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>Adana, Seyhan</td>
+              <td>2+1</td>
+              <td>6.900₺</td>
+              <td>90 m²</td>
+              <td>21.05.2025</td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td>Kocaeli, İzmit</td>
+              <td>1+1</td>
+              <td>7.200₺</td>
+              <td>65 m²</td>
+              <td>20.05.2025</td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td>Gaziantep, Şahinbey</td>
+              <td>3+1</td>
+              <td>9.200₺</td>
+              <td>95 m²</td>
+              <td>19.05.2025</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="d-flex justify-content-end  my-3">
+            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#ekleModal">
+              Kayıt Ekle
+            </button>
+          </div>
+          
+      </main>
+
+
+      <footer>
+        <div class="text-center">
+            <h4>TÜM HAKLAR SAKLIDIR</h4>
+        </div>
+    </footer>
+    </div>
+
+    <!-- Modal -->
+<div class="modal fade" id="ekleModal" tabindex="-1" aria-labelledby="ekleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <form id="ekleForm">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="ekleModalLabel">Yeni Kayıt Ekle</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Kapat"></button>
+          </div>
+          <div class="modal-body">
+            <div class="mb-3">
+              <label for="adres" class="form-label">Adres</label>
+              <input type="text" class="form-control" id="adres" required />
+            </div>
+            <div class="mb-3">
+              <label for="oda" class="form-label">Oda Sayısı</label>
+              <input type="text" class="form-control" id="oda" required />
+            </div>
+            <div class="mb-3">
+              <label for="fiyat" class="form-label">Fiyat</label>
+              <input type="text" class="form-control" id="fiyat" required />
+            </div>
+            <div class="mb-3">
+              <label for="metrekare" class="form-label">Metrekare</label>
+              <input type="text" class="form-control" id="metrekare" required />
+            </div>
+            <div class="mb-3">
+              <label for="tarih" class="form-label">İlan Tarihi</label>
+              <input type="date" class="form-control" id="tarih" required />
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">İptal</button>
+            <button type="submit" class="btn btn-primary">Ekle</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+  
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
