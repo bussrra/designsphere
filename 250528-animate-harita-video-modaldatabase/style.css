@@ -1,0 +1,20 @@
+
+.navbar .nav-link{
+    color: rgba(0, 0, 0, 0.897);
+    font-size: large;
+}
+.carousel-indicators button {
+ width: 15px;
+ min-height: 15px;
+ border-radius: 50%;   /*kareleri yuvarlağa çevirme*/
+
+}
+
+.carousel-indicators .active {
+  background-color: #007bff; /* Mavi */
+  opacity: 1;
+}
+
+
+
+
